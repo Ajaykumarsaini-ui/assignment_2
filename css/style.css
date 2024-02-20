@@ -100,7 +100,7 @@ header ul {
     height: 650px;
     position: absolute;
     border-bottom-left-radius: 100px;
-    background-image: url("/img/hero_img.jpg");
+    background-image: url('img/hero_img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ header ul {
     justify-content: center;
     width: 100%;
     min-height: 300px;
-    background-image: url("/img/call_to_action.jpg");
+    background-image: url('img/call_to_action.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
