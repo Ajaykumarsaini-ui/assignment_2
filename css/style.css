@@ -262,6 +262,7 @@ footer .content {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-right: 20px; */
 }
 
 footer a {
@@ -271,7 +272,7 @@ footer a {
 footer li {
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 footer li:first-child {
@@ -449,19 +450,19 @@ footer .footer-leaf {
 @media screen and (max-width:380px) {
 
     header .navbar-brand img {
-        width: 120px;
+        width: 140px;
         position: absolute;
         left: 10px;
     }
 
     header span i {
-        font-size: 20px;
+        font-size: 25px;
         position: absolute;
         right: 10px;
     }
 
     header {
-        height: 50px;
+        height: 70px;
     }
 }
 
@@ -474,11 +475,21 @@ footer .footer-leaf {
         grid-template-rows: repeat(2, 1fr);
     }
 
+    #hero #hero_content {
+        min-height: 375px;
+    }
+
     /* ----------------chairs --------------- */
     #chairs #chairs_pic {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
+
+    #best_sellers #best_sellers_content img {
+        height: 200px;
+        width: 220px;
+    }
+
 
     /* hero  */
     #hero #hero_image {
